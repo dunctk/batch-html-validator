@@ -1,0 +1,10 @@
+[project]
+name = "checker"
+version = "0.1.0"
+description = "Check a list of urls to make sure html tags are closed properly"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "requests>=2.32.3",
+]
